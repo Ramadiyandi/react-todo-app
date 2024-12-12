@@ -75,7 +75,7 @@ The project follows a cloud-native design with the following flow:
     ```
 
 ## CI/CD Workflow
-The CI/CD pipeline is defined in `node.js.yml` and automates:
+The CI/CD pipeline is defined in `CICD.yml` and automates:
 1. **Build and Tag**: Creates a container image using Podman.
 2. **Push to Registry**: Stores the image in Red Hat Quay.io.
 3. **Deploy to OpenShift**: Updates or creates deployments, services, and routes.
